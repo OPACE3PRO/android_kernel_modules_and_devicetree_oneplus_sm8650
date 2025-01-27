@@ -473,8 +473,6 @@ static void update_locking_time(unsigned long time, bool in_cs)
 	 */
 	if (!in_cs)
 		goto set;
-	
-
 
 	if (locking_depth_skip(ots->locking_depth)) {
 		/*
